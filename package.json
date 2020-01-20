@@ -1,0 +1,26 @@
+{
+  "name": "learning-dependency-cruiser",
+  "version": "1.0.0",
+  "description": "Auto-generate dependency graph of project (you can adjust depth).",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "build": "",
+    "test": "jest --passWithNoTests",
+    "lint": "eslint *.js --max-warnings=0",
+    "fix": "eslint --fix *.js"
+  },
+  "author": "hchiam",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-google": "^0.14.0",
+    "husky": "^3.0.9",
+    "jest-cli": "^24.9.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm test"
+    }
+  }
+}
