@@ -6,7 +6,7 @@ Auto-generate dependency graph of project (you can adjust depth).
 
 ```bash
 brew install graphviz
-npm install --global dependency-cruiser
+npm install --save-dev dependency-cruiser
 
 # (your code should be inside a folder named src)
 depcruise --exclude "^node_modules" --output-type dot src | dot -T svg > dependencygraph.svg
