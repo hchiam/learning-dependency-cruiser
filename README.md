@@ -2,7 +2,7 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
-Auto-generate dependency graph of project (you can adjust depth).
+Auto-generate a [dependency graph](https://en.wikipedia.org/wiki/Dependency_graph) of your project (you can adjust depth).
 
 ```bash
 brew install graphviz
