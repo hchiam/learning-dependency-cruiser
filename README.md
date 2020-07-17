@@ -12,6 +12,8 @@ npm install --save-dev dependency-cruiser
 depcruise --exclude "^node_modules" --output-type dot src | dot -T svg > dependencygraph.svg
 ```
 
+(Or use [show_dep_graph.sh](https://github.com/hchiam/learning-bash-scripts/blob/master/show_dep_graph.sh))
+
 Now open [`dependencygraph.svg`](https://github.com/hchiam/learning-dependency-cruiser/blob/master/dependencygraph.svg) in a browser or viewer.
 
 ![dependencygraph.svg](https://github.com/hchiam/learning-dependency-cruiser/blob/master/dependencygraph.svg)
