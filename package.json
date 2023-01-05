@@ -13,7 +13,7 @@
   "author": "hchiam",
   "license": "MIT",
   "devDependencies": {
-    "dependency-cruiser": "^12.1.0",
+    "dependency-cruiser": "^12.3.0",
     "eslint": "^6.4.0",
     "eslint-config-google": "^0.14.0",
     "husky": "^3.0.9",
